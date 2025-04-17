@@ -14,7 +14,10 @@ function App() {
         "https://earth.google.com/web/@31.34262489,37.31693636,510.73040736a,2368.68705524d,35y,-0h,0t,0r/data=CkUaPxI5CiQweDE1MTAwNzkxNjM3YmQ4ZmY6MHhjYzE1YjdlYTIxZjg0ZTkqEUtpbmcgQWJkdWxsYWggYmluGAIgAUICCAE6AwoBMEICCABKDQj___________8BEAA"
       );
   }
-
+  function sdad() {
+    alert(BUG);
+  }
+  sdad();
   const cardStyle =
     "p-6 shadow rounded-xl text-center bg-[#f1f5f9] text-gray-900 hover:bg-[#ffa189] hover:scale-105 duration-300";
 
