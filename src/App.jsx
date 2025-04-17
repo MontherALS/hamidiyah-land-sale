@@ -73,12 +73,12 @@ function App() {
             <p>مقسمة رسميًا مع كروكي وأوتاد</p>
           </div>
           <div className={cardStyle}>
-            <h4 className="font-semibold">حالة الورثة</h4>
+            <h4 className="font-semibold">حالة </h4>
             <p>متفقون على البيع</p>
           </div>
           <div className={cardStyle}>
-            <h4 className="font-semibold">حالة الورثة</h4>
-            <p>متفقون على البيع</p>
+            <h4 className="font-semibold">سعر </h4>
+            <p>عند التواصل</p>
           </div>
         </div>
 
