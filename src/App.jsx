@@ -16,7 +16,7 @@ function App() {
   }
 
   const cardStyle =
-    "p-6 shadow rounded-xl text-center bg-[#f1f5f9] text-gray-900 hover:bg-[#ffa189] hover:scale-105 duration-300";
+    "p-6 shadow rounded-xl text-center bg-[#f1f5f9] text-gray-900 hover:bg-[#1c2945] hover:text-white hover:scale-105 duration-300";
 
   return (
     <div className="font-sans bg-[#f8f9fa] text-gray-800">
@@ -89,14 +89,14 @@ function App() {
             <button
               onClick={handleClick}
               name="googleMaps"
-              className="px-6 py-2 bg-[#1c2945] text-white rounded-full hover:bg-[#98b1e1] hover:scale-105 duration-300"
+              className="px-6 py-2 bg-[#1c2945] font-light text-white rounded-full hover:bg-[#98b1e1] hover:scale-105 duration-300"
             >
               🌍 استعرض في Google Maps
             </button>
             <button
               onClick={handleClick}
               name="googleEarth"
-              className="px-6 py-2 bg-[#1c2945] text-white rounded-full hover:bg-[#98b1e1] hover:scale-105 duration-300"
+              className="px-6 py-2 bg-[#1c2945] font-light text-white rounded-full hover:bg-[#98b1e1] hover:scale-105 duration-300"
             >
               🛰️ عرض جوي عبر Google Earth
             </button>
