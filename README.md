@@ -19,4 +19,4 @@ A modern and responsive landing page built to showcase a **314,000 m² land for 
 
 ## 🌐 Live Demo
 
-👉 [Click here to view the site](https://qurayyatland.netlify.app/)
+https://alhumaidiyah.netlify.app/
