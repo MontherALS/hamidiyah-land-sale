@@ -20,3 +20,4 @@ A modern and responsive landing page built to showcase a **314,000 m² land for 
 ## 🌐 Live Demo
 
 https://alhumaidiyah.netlify.app/
+ Developed by [MontherALS](https://github.com/MontherALS)
