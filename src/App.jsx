@@ -39,10 +39,10 @@ function App() {
         style={{ backgroundImage: "url('/11.png')" }}
       >
         <h2 className="text-3xl sm:text-5xl font-bold mb-4">
-          328,000 متر مربع من الفرص
+          الف متر مربع من الفرص <span dir="ltr">328,000</span>
         </h2>
         <p className="text-lg sm:text-2xl mb-6">
-          أرض جاهزة للبيع، على بعد 15 دقيقة فقط من القريات
+          أرض جاهزة للبيع، على بعد 15 دقيقة فقط من وسط القريات
         </p>
         <a
           href="#details"
@@ -77,7 +77,7 @@ function App() {
             <p>متفقون على البيع</p>
           </div>
           <div className={cardStyle}>
-            <h4 className="font-semibold">سعر </h4>
+            <h4 className="font-semibold">السعر </h4>
             <p>عند التواصل</p>
           </div>
         </div>
@@ -85,11 +85,11 @@ function App() {
         <div className="flex flex-col gap-5 justify-center items-center text-xl sm:text-2xl font-bold text-center my-10">
           <h1 className="mb-10">روابط تهمك</h1>
 
-          <div className="flex gap-4 justify-center">
+          <div className="flex flex-col gap-4 justify-center">
             <button
               onClick={handleClick}
               name="googleMaps"
-              className="px-6 py-2 bg-[#1c2945] font-light text-white rounded-full hover:bg-[#98b1e1] hover:scale-105 duration-300"
+              className="px-6 py-2  bg-[#1c2945] font-light text-white rounded-full hover:bg-[#98b1e1] hover:scale-105 duration-300"
             >
               🌍 استعرض في Google Maps
             </button>
