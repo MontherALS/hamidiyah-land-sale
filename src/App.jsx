@@ -58,7 +58,7 @@ function App() {
           </div>
           <div className={cardStyle}>
             <h4 className="font-semibold">الموقع</h4>
-            <p>10 دقيقة من القريات</p>
+            <p> دقائق من القريات 10</p>
           </div>
           <div className={cardStyle}>
             <h4 className="font-semibold">التقسيم</h4>
