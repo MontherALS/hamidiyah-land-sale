@@ -54,7 +54,7 @@ function App() {
           </div>
           <div className={cardStyle}>
             <h4 className="font-semibold">نوع الصك</h4>
-            <p>إلكتروني – زراعي مشاع</p>
+            <p>إلكتروني – زراعي</p>
           </div>
           <div className={cardStyle}>
             <h4 className="font-semibold">الموقع</h4>
