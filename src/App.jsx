@@ -105,7 +105,7 @@ function App() {
         <h3 className="text-2xl font-bold mb-6"> تواصل معنا</h3>
         <p className="mb-4">للاستفسار أو معاينة الموقع، راسلنا عبر الواتساب</p>
         <a
-          href="https://wa.me/0541126983"
+          href="https://wa.me/966541126983"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-[#1c2945] text-white px-8 py-3 rounded-xl hover:bg-[#98b1e1]  duration-300 ease-in-out hover:scale-105 hover:brightness-110"
