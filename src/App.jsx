@@ -18,6 +18,8 @@ function App() {
   const cardStyle =
     "p-6 shadow rounded-xl text-center bg-[#f1f5f9] text-gray-900 hover:bg-[#1c2945] hover:text-white hover:scale-105 duration-300";
 
+  const googleButtonStyle =
+    "px-6 py-2 cursor-pointer bg-[#1c2945] font-light text-white rounded-full hover:bg-[#98b1e1] hover:scale-105 duration-300";
   return (
     <div className="font-sans bg-[#f8f9fa] text-gray-800">
       {/* Navbar */}
@@ -52,7 +54,6 @@ function App() {
         </a>
       </section>
 
-      {/* تفاصيل الأرض */}
       <section id="details" className="px-6 py-16 bg-[#f8f9fa] text-gray-800">
         <h3 className="text-2xl font-bold text-center mb-10">تفاصيل الأرض</h3>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -83,20 +84,20 @@ function App() {
         </div>
 
         <div className="flex flex-col gap-5 justify-center items-center text-xl sm:text-2xl font-bold text-center my-10">
-          <h1 className="mb-10">روابط تهمك</h1>
+          <h1 className="mb-5 mt-13">روابط تهمك</h1>
 
           <div className="flex flex-col gap-4 justify-center">
             <button
               onClick={handleClick}
               name="googleMaps"
-              className="px-6 py-2  bg-[#1c2945] font-light text-white rounded-full hover:bg-[#98b1e1] hover:scale-105 duration-300"
+              className={googleButtonStyle}
             >
               🌍 استعرض في Google Maps
             </button>
             <button
               onClick={handleClick}
               name="googleEarth"
-              className="px-6 py-2 bg-[#1c2945] font-light text-white rounded-full hover:bg-[#98b1e1] hover:scale-105 duration-300"
+              className={googleButtonStyle}
             >
               🛰️ عرض جوي عبر Google Earth
             </button>
@@ -104,12 +105,11 @@ function App() {
         </div>
       </section>
 
-      {/* تواصل معنا */}
       <section
         id="contact"
         className="px-6 py-20 bg-[#f1f5f9] text-gray-800 text-center"
       >
-        <h3 className="text-2xl font-bold mb-6">🗨️ تواصل معنا</h3>
+        <h3 className="text-2xl font-bold mb-6"> تواصل معنا</h3>
         <p className="mb-4">للاستفسار أو معاينة الموقع، راسلنا عبر الواتساب</p>
         <a
           href="https://wa.me/966508600270"
@@ -117,11 +117,10 @@ function App() {
           rel="noopener noreferrer"
           className="inline-block bg-[#1c2945] text-white px-8 py-3 rounded-xl hover:bg-[#9ba5b8] duration-300"
         >
-          تحدث معنا على واتساب
+          🗨️ تواصل
         </a>
       </section>
 
-      {/* Footer */}
       <footer className="py-6 text-center bg-[#1c2945] text-white text-sm">
         &copy; {new Date().getFullYear()} — عرض أرض القريات
       </footer>
