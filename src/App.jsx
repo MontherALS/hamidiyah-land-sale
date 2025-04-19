@@ -15,7 +15,7 @@ function App() {
     <div className="font-sans bg-[#f8f9fa] text-gray-800">
       {/* Navbar */}
       <nav className="flex flex-col sm:flex-row justify-between items-center px-6 py-4 bg-[#1c2945] text-white shadow-md sticky top-0 z-50">
-        <h1 className="text-xl sm:text-3xl font-bold">أرض الحميدية </h1>
+        <h1 className="text-xl sm:text-3xl font-bold">مخطط إشبيلية</h1>
         <div className="flex space-x-4 gap-4 mt-2 sm:mt-0">
           <a href="#details" className="hover:underline text-sm sm:text-lg">
             التفاصيل
@@ -28,9 +28,10 @@ function App() {
 
       {/* Hero Section */}
       <section
-        className="bg-center bg-cover h-[90vh] flex flex-col justify-center items-center text-center text-white px-4"
-        style={{ backgroundImage: "url('/11.png')" }}
+        className="bg-center bg-cover h-[90vh] relative flex flex-col justify-center items-center text-center text-white px-4"
+        style={{ backgroundImage: "url('/22.jpg')" }}
       >
+        <h1 className="text-7xl font-Amiri mb-5">مخطط إشبيلية</h1>
         <h2 className="text-3xl sm:text-5xl font-bold mb-4">
           الف متر مربع من الفرص <span dir="ltr">314,000</span>
         </h2>
@@ -43,6 +44,10 @@ function App() {
         >
           شاهد التفاصيل
         </a>
+
+        <p className="absolute bottom-4 left-4 text-sm sm:text-base text-white bg-black/50 px-3 py-1 rounded-md backdrop-blur-sm">
+          الصورة توضيحية وليست من الأرض المعروضة. للتفاصيل تواصل معنا
+        </p>
       </section>
 
       <section id="details" className="px-6 py-16 bg-[#f8f9fa] text-gray-800">
@@ -132,7 +137,7 @@ function App() {
       </section>
 
       <footer className="py-6 text-center bg-[#1c2945] text-white text-sm">
-        &copy; {new Date().getFullYear()} — عرض أرض الحميدية
+        &copy; {new Date().getFullYear()} — عرض مخطط إشبيلية
       </footer>
     </div>
   );
